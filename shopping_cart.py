@@ -44,10 +44,10 @@ def lookup_product_by_id(product_id):
 running_total = 0
 
 print("-------------------------------")
-print("MY GROCERY STORE")
+print("Henri's Grocery")
 print("-------------------------------")
-print("Web: www.mystore.com")
-print("Phone: 1.123.456.7890")
+print("Web: www.henris.com")
+print("Phone: 1.212.201.6313")
 print("Checkout Time: ", datetime.datetime.now().strftime("%Y-%m-%d %H:%m:%S"))
 
 print("-------------------------------")
@@ -67,7 +67,7 @@ total = running_total + tax
 print("Total:", '${0:.2f}'.format(total))
 
 print("-------------------------------")
-print("Thanks for your business! Please come again.")
+print("Thank you for your business! See you next time!")
 
 #product_ids = [1, 8, 6, 16, 6] # temporary list of valid ids for testing purposes
 
